@@ -24,10 +24,6 @@ class _notificationFromUserState extends State<notificationFromUser> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(child: CircularProgressIndicator()),
-      // floatingActionButton: FloatingActionButton(
-      //   child: Icon(Icons.exit_to_app),
-      //   onPressed: () => SystemNavigator.pop(),
-      // ),
     );
   }
 }
