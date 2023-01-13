@@ -1,5 +1,5 @@
 import 'package:sembast/sembast.dart';
-import 'package:user_management_system/database/user_db.dart';
+import 'package:user_management_system/local_database/user_db.dart';
 
 class DeleteDistrict extends UsersDB {
   DeleteDistrict({required super.dbName});

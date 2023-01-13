@@ -1,5 +1,5 @@
 import 'package:sembast/sembast.dart';
-import 'package:user_management_system/database/user_db.dart';
+import 'package:user_management_system/local_database/user_db.dart';
 import 'province_constructor.dart';
 
 class InsertProvince extends UsersDB {

@@ -8,7 +8,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:user_management_system/tabitem.dart';
+import 'package:user_management_system/bottom_tabitem.dart';
 import 'package:user_management_system/model/roles/role_constructor.dart';
 import 'package:user_management_system/model/roles/role_provider.dart';
 import 'package:user_management_system/model/users/user_constructor.dart';
@@ -129,12 +129,6 @@ class _loginPageState extends State<loginPage> {
       },
     );
   }
-
-  // Exit from Application
-  // Future<bool?> ExitApp(BuildContext context) async {
-  //   SystemNavigator.pop();
-  //   return true;
-  // }
 
   @override
   void initState() {

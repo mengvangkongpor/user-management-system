@@ -1,6 +1,6 @@
 import 'package:sembast/sembast.dart';
 import 'user_constructor.dart';
-import 'package:user_management_system/database/user_db.dart';
+import 'package:user_management_system/local_database/user_db.dart';
 
 class InsertUserData extends UsersDB {
   InsertUserData({required super.dbName});
